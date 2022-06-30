@@ -1,0 +1,170 @@
+.input-group-btn button[type="submit"] {
+    border-radius: 100px !important;
+    padding: 1rem 3rem;
+    margin-top: 50px;
+
+}
+
+.landing-text {
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    opacity: 75%;
+    margin-bottom: 10px;
+}
+
+.anagram {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: 60%;
+}
+
+/****************animation background****************/
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/****************animation background****************/
+
+
+/* Shine */
+hr {
+    border: 0;
+    margin-top: 100px;
+    max-width: 100%;
+    background-position: 50%;
+    box-sizing: border-box;
+}
+
+.shine {
+
+    margin-top: -100;
+    height: 10px;
+    width: 80%;
+    background-image: radial-gradient(farthest-side at 50% -50%,
+            hsla(0, 0%, 0%, 0.5),
+            hsla(0, 0%, 0%, 0));
+    position: relative;
+}
+
+.shine::before {
+    margin-top: -100;
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg,
+            hsla(0, 0%, 0%, 0),
+            hsla(0, 0%, 0%, 0.75) 50%,
+            hsla(0, 0%, 0%, 0));
+}
+
+.container {
+    /*background-color: #142850;*/
+}
+
+.copyright {
+
+    width: 100%;
+    text-align: center;
+    background-color: #232327;
+    color: #eee;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+
+.copyright p {
+    font-size: 1rem;
+}
+
+
+.madewithlove {
+
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+a,
+a:hover {
+    color: #149dcc;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.algoritm {
+    margin-top: 3%;
+    text-align: center;
+}
+
+/*  submit button*/
+
+.submitbutton {
+    display: flex;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 30%;
+    border: 2px solid #ffa812;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #e67409;
+    transition-duration: 0.4s;
+    text-shadow: 2px 2px 0 #e67409;
+}
+
+.submitbutton:hover {
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #e67409;
+    text-shadow: 2px 2px 0 #42964c;
+    background-color: #69c160;
+    border: 2px solid #42964c;
+}
+
+pre{
+    background-color: lightgray;
+}
+
+/*        */
